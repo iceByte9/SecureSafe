@@ -18,7 +18,7 @@ export class SignupComponent implements AfterViewInit {
   signupForm: FormGroup;
   isCameraOn = false;
   private capturedImages: string[] = [];
-
+//
   constructor(private fb: FormBuilder,private router: Router) {
     this.signupForm = this.fb.group({
       username: ['', Validators.required],
