@@ -27,6 +27,7 @@ export class SignupComponent implements AfterViewInit {
     });
   }
 //
+//
   ngAfterViewInit(): void {
     // Check if videoElement is available
     if (this.videoElement) {
