@@ -26,7 +26,7 @@ export class SignupComponent implements AfterViewInit {
       password: ['', Validators.required]
     });
   }
-
+//
   ngAfterViewInit(): void {
     // Check if videoElement is available
     if (this.videoElement) {
