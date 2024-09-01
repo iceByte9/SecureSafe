@@ -1,0 +1,38 @@
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.main-story {
+  margin-bottom: 20px;
+}
+
+.related-stories {
+  margin-top: 20px;
+}
+
+.related-story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.related-story img {
+  margin-right: 10px;
+}
+
+
+/* stories.component.scss */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
